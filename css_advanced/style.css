@@ -1,0 +1,246 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  button {
+    cursor: pointer;
+    font-family: inherit;
+  }
+  
+  /* Utility */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  /* HEADER */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+  header nav {
+    display: flex;
+    gap: 2rem;
+  }
+  header nav a {
+    color: #333;
+    font-weight: 500;
+  }
+  
+  /* BANNER SECTION */
+  .banner {
+    background: linear-gradient(to bottom, #071629, #2f2f3b);
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  .banner h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+  .banner-top button {
+    background: #c271ff;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  .banner-bottom {
+    margin-top: 4rem;
+  }
+  .banner-bottom h2 {
+    color: #c271ff;
+    margin-bottom: 2rem;
+  }
+  .feature-blocks {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .feature {
+    text-align: center;
+    color: white;
+  }
+  .feature img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  /* VIDEO SECTION */
+  .videos {
+    background: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  .videos h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .video-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .video {
+    background: #fff;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: left;
+  }
+  .video img {
+    border-radius: 10px 10px 0 0;
+  }
+  .video h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0 1rem;
+    margin-top: 1rem;
+  }
+  .video p {
+    font-size: 0.875rem;
+    padding: 0 1rem;
+    color: #777;
+  }
+  .video-author {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 0.5rem;
+  }
+  .video-author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .video-rating {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem 1rem;
+    font-size: 0.75rem;
+    color: #c271ff;
+  }
+  .video-rating .stars img {
+    width: 14px;
+  }
+  
+  /* MEMBERSHIP SECTION */
+  .membership {
+    background: #071629;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  .membership h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .membership h2 span {
+    color: #c271ff;
+  }
+  .membership-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  .membership-item img {
+    width: 50px;
+    margin: 0 auto 1rem;
+  }
+  .membership-item h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .membership-item p {
+    font-size: 0.875rem;
+    color: #ccc;
+  }
+  .membership button {
+    background: #c271ff;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  /* FAQ SECTION */
+  .faq {
+    padding: 4rem 2rem;
+    background: white;
+    text-align: center;
+  }
+  .faq h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  .faq-row {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .faq-item {
+    max-width: 300px;
+  }
+  .faq-item h3 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  .faq-item p {
+    font-size: 0.875rem;
+    color: #666;
+  }
+  
+  /* FOOTER */
+  footer {
+    background: #071629;
+    color: white;
+    padding: 2rem;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .footer-content {
+    text-align: right;
+  }
+  .footer-content p {
+    font-size: 0.75rem;
+    color: #aaa;
+  }
+  .social-links a img {
+    width: 24px;
+    margin-left: 0.5rem;
+  }
+  
